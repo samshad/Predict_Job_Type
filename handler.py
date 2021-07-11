@@ -1,8 +1,9 @@
 import spacy
 nlp = spacy.load("en_core_web_trf")
+# python -m spacy download en_core_web_trf
 import nltk
-#nltk.download('punkt')
-#nltk.download('wordnet')
+# nltk.download('punkt')
+# nltk.download('wordnet')
 
 from dateutil import parser
 import string
