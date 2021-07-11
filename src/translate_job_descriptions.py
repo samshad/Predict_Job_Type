@@ -24,7 +24,7 @@ from googletrans import Translator
 translator = Translator()
 
 
-train = pd.read_csv('Data/test_jobs.csv', encoding="utf-8")
+train = pd.read_csv('../Data/test_jobs.csv', encoding="utf-8")
 # train['lang'] = train["clean_description"].apply(lambda x: langdetect.detect(x) if x.strip() != "" else "")
 
 cnt = 1

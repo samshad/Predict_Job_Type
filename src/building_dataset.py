@@ -2,7 +2,7 @@ import pandas as pd
 import handler as h
 
 
-df = pd.read_csv('Data/Test/jobs.csv')
+df = pd.read_csv('../Data/Test/jobs.csv')
 df = df[['jobTitle', 'cleanContent', 'jobSector', 'uid']]
 df.rename(columns={'jobTitle': 'title', 'cleanContent': 'job_description', 'jobSector': 'category',
                    'uid': 'judi'}, inplace=True)
