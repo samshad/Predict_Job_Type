@@ -10,7 +10,7 @@ df.rename(columns={'jobTitle': 'title', 'cleanContent': 'job_description', 'jobS
 #df.to_csv('Data/jobs.csv', index=False)
 x = []
 for i in df['job_description']:
-    t = h.cleaner(i)
+    t = h.cleaner(str(i) + str(df['title']))
     x.append(t)
     print(t)
 
