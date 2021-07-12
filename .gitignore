@@ -130,6 +130,7 @@ dmypy.json
 .pyre/
 
 Data/
+Model/
 00.py
 ttest.py
 
