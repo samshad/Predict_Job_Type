@@ -129,8 +129,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-Data/
-Model/
+src/Data/
+src/Model/
 00.py
 ttest.py
 

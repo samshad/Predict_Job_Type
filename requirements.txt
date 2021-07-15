@@ -8,3 +8,5 @@ nltk==3.6.2
 tensorflow==2.0.0
 sklearn
 keras==2.3.0
+PyPDF2
+jsonlines
